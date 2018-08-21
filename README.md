@@ -10,7 +10,6 @@
 - [How to write gherkin scripts](https://www.youtube.com/watch?v=i0Q5orC5jSQ)
 - [Cucumber + Java - playlist](https://www.youtube.com/playlist?list=PL6tu16kXT9PpteusHGISu_lHcV6MbBtA6)
 
-
 ## Selenium related:
 - [Coding conventions for Selenium](https://pragmatictestlabs.com/2018/03/05/coding-convention-selenium-java/)
 - [Cucumber with Selenium - playlist](https://www.youtube.com/playlist?list=PL6tu16kXT9Pqr70SZlwcmTSAfOw_0Qj3R)
@@ -26,3 +25,45 @@
 ### Errors:
 - [Incompatible class change error](https://github.com/cucumber/cucumber-jvm/issues/1392)
 - [InvalidSelectorException](https://bit.ly/2Ps76vY)
+
+## Naming convention: [src](https://stackoverflow.com/questions/45028747/suggested-naming-conventions-for-selenium-identifiers)
+For locators I always prefix loc_ to the variable name. For example: loc_btnExit, etc.
+
++----------+----------------------------+--------+-----------------+
+| Category |      UI/Control type       | Prefix |     Example     |
++----------+----------------------------+--------+-----------------+
+| Basic    | Button                     | btn    | btnExit         |
+| Basic    | Check box                  | chk    | chkReadOnly     |
+| Basic    | Combo box                  | cbo    | cboEnglish      |
+| Basic    | Common dialog              | dlg    | dlgFileOpen     |
+| Basic    | Date picker                | dtp    | dtpPublished    |
+| Basic    | Dropdown List / Select tag | ddl    | ddlCountry      |
+| Basic    | Form                       | frm    | frmEntry        |
+| Basic    | Frame                      | fra    | fraLanguage     |
+| Basic    | Image                      | img    | imgIcon         |
+| Basic    | Label                      | lbl    | lblHelpMessage  |
+| Basic    | Links/Anchor Tags          | lnk    | lnkForgotPwd    |
+| Basic    | List box                   | lst    | lstPolicyCodes  |
+| Basic    | Menu                       | mnu    | mnuFileOpen     |
+| Basic    | Radio button / group       | rdo    | rdoGender       |
+| Basic    | RichTextBox                | rtf    | rtfReport       |
+| Basic    | Table                      | tbl    | tblCustomer     |
+| Basic    | TabStrip                   | tab    | tabOptions      |
+| Basic    | Text Area                  | txa    | txaDescription  |
+| Basic    | Text box                   | txt    | txtLastName     |
+| Complex  | Chevron                    | chv    | chvProtocol     |
+| Complex  | Data grid                  | dgd    | dgdTitles       |
+| Complex  | Data list                  | dbl    | dblPublisher    |
+| Complex  | Directory list box         | dir    | dirSource       |
+| Complex  | Drive list box             | drv    | drvTarget       |
+| Complex  | File list box              | fil    | filSource       |
+| Complex  | Panel/Fieldset             | pnl    | pnlGroup        |
+| Complex  | ProgressBar                | prg    | prgLoadFile     |
+| Complex  | Slider                     | sld    | sldScale        |
+| Complex  | Spinner                    | spn    | spnPages        |
+| Complex  | StatusBar                  | sta    | staDateTime     |
+| Complex  | Timer                      | tmr    | tmrAlarm        |
+| Complex  | Toolbar                    | tlb    | tlbActions      |
+| Complex  | TreeView                   | tre    | treOrganization |
++----------+----------------------------+--------+-----------------+
+
