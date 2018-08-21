@@ -27,4 +27,4 @@
 - [InvalidSelectorException](https://bit.ly/2Ps76vY)
 
 ## Naming conventions: 
-[Naming conventions for WebElements](https://stackoverflow.com/questions/45028747/suggested-naming-conventions-for-selenium-identifiers)
+- [Naming conventions for WebElements](https://stackoverflow.com/questions/45028747/suggested-naming-conventions-for-selenium-identifiers)
