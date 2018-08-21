@@ -26,9 +26,10 @@
 - [Incompatible class change error](https://github.com/cucumber/cucumber-jvm/issues/1392)
 - [InvalidSelectorException](https://bit.ly/2Ps76vY)
 
-## Naming convention: [src](https://stackoverflow.com/questions/45028747/suggested-naming-conventions-for-selenium-identifiers)
+## Naming convention: 
+[src](https://stackoverflow.com/questions/45028747/suggested-naming-conventions-for-selenium-identifiers)
 For locators I always prefix loc_ to the variable name. For example: loc_btnExit, etc.
-
+"""
 +----------+----------------------------+--------+-----------------+
 | Category |      UI/Control type       | Prefix |     Example     |
 +----------+----------------------------+--------+-----------------+
@@ -66,4 +67,5 @@ For locators I always prefix loc_ to the variable name. For example: loc_btnExit
 | Complex  | Toolbar                    | tlb    | tlbActions      |
 | Complex  | TreeView                   | tre    | treOrganization |
 +----------+----------------------------+--------+-----------------+
+"""
 
