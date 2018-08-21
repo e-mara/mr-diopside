@@ -18,7 +18,7 @@
 - [How to write good xpath selectors](https://www.swtestacademy.com/xpath-selenium/)
 
 
-##Gradle related:
+## Gradle related:
 - [Gradle + cucumber](http://www.thinkcode.se/blog/2015/12/26/gradle-and-cucumberjvm)
 
 
