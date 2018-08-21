@@ -16,6 +16,7 @@
 - [Cucumber with Selenium - playlist](https://www.youtube.com/playlist?list=PL6tu16kXT9Pqr70SZlwcmTSAfOw_0Qj3R)
 - [Xpath conventions/syntax](https://www.w3schools.com/xml/xpath_syntax.asp)
 - [How to write good xpath selectors](https://www.swtestacademy.com/xpath-selenium/)
+- [Selenium naming conventions](https://stackoverflow.com/questions/45028747/suggested-naming-conventions-for-selenium-identifiers)
 
 
 ## Gradle related:
