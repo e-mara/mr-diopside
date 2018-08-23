@@ -29,38 +29,38 @@
 ## Naming conventions: 
 - [Naming conventions for WebElements](https://stackoverflow.com/questions/45028747/suggested-naming-conventions-for-selenium-identifiers)
 
-Category |      UI/Control type       | Prefix |     Example    
----------| -------------------------- | ------ | --------------- 
-Basic    | Button                     | btn     | btnExit        
-Basic    | Check box                  | chk     | chkReadOnly    
-Basic    | Combo box                  | cbo     | cboEnglish     
-Basic    | Common dialog              | dlg     | dlgFileOpen    
-Basic    | Date picker                | dtp     | dtpPublished   
-Basic    | Dropdown List / Select tag | ddl     | ddlCountry     
-Basic    | Form                       | form    | formEntry       
-Basic    | Frame                      | fra     | fraLanguage    
-Basic    | Image                      | img     | imgIcon        
-Basic    | Label                      | lbl     | lblHelpMessage 
-Basic    | Links/Anchor Tags          | lnk     | lnkForgotPwd   
-Basic    | List box                   | lst     | lstPolicyCodes 
-Basic    | Menu                       | mnu     | mnuFileOpen    
-Basic    | Radio button / group       | rdo     | rdoGender      
-Basic    | RichTextBox                | rtf     | rtfReport      
-Basic    | Table                      | tbl     | tblCustomer    
-Basic    | TabStrip                   | tab     | tabOptions     
-Basic    | Text Area                  | txa     | txaDescription 
-Basic    | Text box                   | txt     | txtLastName    
-Complex  | Chevron                    | chv     | chvProtocol    
-Complex  | Data grid                  | dgd     | dgdTitles      
-Complex  | Data list                  | dbl     | dblPublisher   
-Complex  | Directory list box         | dir     | dirSource      
-Complex  | Drive list box             | drv     | drvTarget      
-Complex  | File list box              | fil     | filSource      
-Complex  | Panel/Fieldset             | pnl     | pnlGroup       
-Complex  | ProgressBar                | prg     | prgLoadFile    
-Complex  | Slider                     | sld     | sldScale       
-Complex  | Spinner                    | spn     | spnPages       
-Complex  | StatusBar                  | sta     | staDateTime    
-Complex  | Timer                      | tmr     | tmrAlarm       
-Complex  | Toolbar                    | tlb     | tlbActions      
-Complex  | TreeView                   | tre     | treOrganization
+Category |      UI/Control type       | Prefix  
+---------| -------------------------- | --------
+Basic    | Button                     | btn 
+Basic    | Check box                  | chk 
+Basic    | Combo box                  | cbo 
+Basic    | Common dialog              | dlg  
+Basic    | Date picker                | dtp  
+Basic    | Dropdown List / Select tag | ddl  
+Basic    | Form                       | form 
+Basic    | Frame                      | fra 
+Basic    | Image                      | img 
+Basic    | Label                      | lbl 
+Basic    | Links/Anchor Tags          | lnk 
+Basic    | List box                   | lst 
+Basic    | Menu                       | mnu 
+Basic    | Radio button / group       | rdo 
+Basic    | RichTextBox                | rtf 
+Basic    | Table                      | tbl 
+Basic    | TabStrip                   | tab 
+Basic    | Text Area                  | txa 
+Basic    | Text box                   | txt 
+Complex  | Chevron                    | chv 
+Complex  | Data grid                  | dgd 
+Complex  | Data list                  | dbl 
+Complex  | Directory list box         | dir 
+Complex  | Drive list box             | drv 
+Complex  | File list box              | fil 
+Complex  | Panel/Fieldset             | pnl 
+Complex  | ProgressBar                | prg 
+Complex  | Slider                     | sld 
+Complex  | Spinner                    | spn 
+Complex  | StatusBar                  | sta 
+Complex  | Timer                      | tmr 
+Complex  | Toolbar                    | tlb 
+Complex  | TreeView                   | tre
