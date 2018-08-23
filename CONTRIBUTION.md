@@ -33,7 +33,7 @@ Before you submit your changes consider the following guidelines:
 
 ### Naming conventions for WebElements:
 
-     UI/Control type       | Prefix  |     Example    
+UI                         | Prefix  | Example
 -------------------------- | ------  | --------------- 
 Button                     | btn     | btnExit        
 Check box                  | chk     | chkReadOnly    
