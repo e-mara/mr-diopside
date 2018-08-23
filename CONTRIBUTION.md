@@ -53,7 +53,6 @@ Table                      | tbl     | tblCustomer
 TabStrip                   | tab     | tabOptions     
 Text Area                  | txa     | txaDescription 
 Text box                   | txt     | txtLastName
--------------------------- | ------  | --------------- 
 Chevron                    | chv     | chvProtocol    
 Data grid                  | dgd     | dgdTitles      
 Data list                  | dbl     | dblPublisher   
