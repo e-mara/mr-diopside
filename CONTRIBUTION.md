@@ -31,7 +31,8 @@ Before you submit your changes consider the following guidelines:
 
 ## Styleguide
 
-###Naming conventions for WebElements:
+### Naming conventions for WebElements:
+
      UI/Control type       | Prefix  |     Example    
 -------------------------- | ------  | --------------- 
 Button                     | btn     | btnExit        
