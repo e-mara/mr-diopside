@@ -29,9 +29,9 @@ Before you submit your changes consider the following guidelines:
  -  Delete your branches after the pull request is merged
 
 
-## Styleguide
+## Naming conventions
 
-### Naming conventions for WebElements:
+### WebElements
 
 UI                         | Prefix  | Example
 -------------------------- | ------  | --------------- 
@@ -68,3 +68,10 @@ StatusBar                  | sta     | staDateTime
 Timer                      | tmr     | tmrAlarm       
 Toolbar                    | tlb     | tlbActions      
 TreeView                   | tre     | treOrganization
+
+### POM Functions
+
+WebElement                 | PageObjectModel          | Example
+-------------------------- | -------------------------| ---------------------------- 
+WebElement.click()         | page.clickOn(pageField)  | mainPage.clickOn(lnk_SignIn)
+WebElement.isDisplayed()   | page.isLoaded(pageField) | mainPage.isLoaded(btn_Apply)
