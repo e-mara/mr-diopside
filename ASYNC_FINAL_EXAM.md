@@ -4,7 +4,7 @@
 - Foreign key
 - SQL syntax
 - Join
-## Examples
+## DB Examples
 - New specific query from database
 - Creating one-to-many, many-to-many connections
 - Basic SQL commands in terminal
