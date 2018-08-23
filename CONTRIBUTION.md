@@ -29,155 +29,42 @@ Before you submit your changes consider the following guidelines:
  -  Delete your branches after the pull request is merged
 
 
-## Directory structure of this repository
+## Styleguide
 
-### Description of root folders
-
-We have several type of materials each of them go in their separate folder:
- -  [`workshop`](workshop): full or half day workshops containing the homework materials, the materials review and the exercises
- -  [`cognitive-apprenticeship`](cognitive-apprenticeship): 1-2 hour long coding practice for experienced mentors in front of mentees
- -  [`dojo`](dojo): half day workshop containing only exercises without any new lecture like material
- -  [`project`](project): multiple day long single person exercise containing specification, user stories / mock-ups / design
- -  [`material`](material): only lecture like materials without any exercises
- -  [`interview`](interview): job interview related materials and exercises
- -  [`styleguide`](styleguide): coding style guide rules
-
-#### Archived folders
- -  [`by-language`](by-language): currently contains all deprecated workshops in a previous structure
- -  [`team-project`](team-project): multiple week long multiple person exercise containing specification, user stories, API documentation
-
-### Lower level directory structure
-
-#### Any workshop folder
- -  The folder name is the title of the workshop
- -  If the outline and the exercises are language independent:
-     -  **`README.md`**: materials and outline
-     -  **`exercises`**:
-         -  **`README.md`**: exercise specification
-         -  **`tests`**:
-             -  If unit test:
-                 -  **`test_exercise-name.ext`**
-             -  If IO test:
-                 -  **`test_exercise-name.json`**
- -  If not language independent:
-     -  **`language-extension.md`**: materials and outline for the language
-     -  **`exercises`**:
-         -  **`exercise-name`**:
-             -  **`language.ext`**: a language specific boilerplate containing the exercise specification as comments
-         -  **`tests`**:
-             -  If unit test:
-                 -  **`test_exercise-name.ext`**
-             -  If IO test:
-                 -  **`test_exercise-name.json`**
-
-**For example**:
-
-```
-example-workshop
-  ├ hello-me
-  | ├ tests
-  | | └ test_hellome.json
-  | ├ c.md
-  | ├ java.md
-  | ├ py.md
-  | └ js.md
-  ├ draw-pyramid
-  | ├ tests
-  | | └ test_draw_pyramid.json
-  | ├ draw_pyramid.c
-  | ├ DrawPyramid.java
-  | ├ draw_pyramind.py
-  | └ draw-pyramid.js
-  ├ motionless
-  | ├ tests    
-  | | ├ test_motionless.c
-  | | ├ TestMotionless.java
-  | | ├ test_motionless.py
-  | | └ motionless.test.js
-  | ├ motionless.c
-  | ├ Motionless.java
-  | ├ motionless.py
-  | └ motionless.js
-  ├ c.md
-  ├ java.md
-  ├ py.md
-  └ js.md
-```
-
-#### Any other sub-folder
- -  Where possible follow the structure of the workshop folders
- -  Simplifying is permitted where possible, for language independent specification use the **`README.md`** file
-
-## Writing tests
-
-There are two different style of testing that we use: unit tests and "IO-tests".
-The meaning of IO-tests:
-There are exercises where students don't need to write functions. These contains very basic tasks, such as declare a variable and print it or ask for a user input and print it. To test the solutions for these kind of tasks, we write IO tests which are looking for outputs which are fitting with defined regex's.
-These IO "tests" need to be written in `json` files in a specified structure. To understand better how tests should be look like, check out the examples below.
-
-### IO tests with no input
-
-#### **Exercise: `hello_me.py`**
-
-```python
-# Modify this program to greet you instead of the World!
-print("Hello, World!")
-```
-#### **Test: `test_hello_me.json`**
-
-
-```json
-{
-  "cases": [
-    {
-      "ex_input" : [],
-      "ex_output" : ["^Hello, (?!World)[a-zA-Z]+!$"]
-    }
-  ]
-}
-```
-
-### IO tests with input
-
-#### **Exercise: `draw_trianlge.py`**
-
-```python
-# Write a program that reads a number from the standard input, then draws a
-# triangle like this:
-#
-# *
-# **
-# ***
-# ****
-#
-# The triangle should have as many lines as the number was
-```
-#### **Test: `test_draw_triangle.json`**
-
-```json
-{
-  "cases": [
-    {
-      "ex_input" : ["1"],
-      "ex_output" : ["^\\*$"]
-    },
-    {
-      "ex_input" : ["2"],
-      "ex_output" : [
-        "^\\*$",
-        "^\\*{2}$"
-      ]
-    },
-    {
-      "ex_input" : ["5"],
-      "ex_output" : [
-        "^\\*$",
-        "^\\*{2}$",
-        "^\\*{3}$",
-        "^\\*{4}$",
-        "^\\*{5}$"
-      ]
-    }
-  ]
-}
-```
+###Naming conventions for WebElements:
+     UI/Control type       | Prefix  |     Example    
+-------------------------- | ------  | --------------- 
+Button                     | btn     | btnExit        
+Check box                  | chk     | chkReadOnly    
+Combo box                  | cbo     | cboEnglish     
+Common dialog              | dlg     | dlgFileOpen    
+Date picker                | dtp     | dtpPublished   
+Dropdown List / Select tag | ddl     | ddlCountry     
+Form                       | form    | formEntry       
+Frame                      | fra     | fraLanguage    
+Image                      | img     | imgIcon        
+Label                      | lbl     | lblHelpMessage 
+Links/Anchor Tags          | lnk     | lnkForgotPwd   
+List box                   | lst     | lstPolicyCodes 
+Menu                       | mnu     | mnuFileOpen    
+Radio button / group       | rdo     | rdoGender      
+RichTextBox                | rtf     | rtfReport      
+Table                      | tbl     | tblCustomer    
+TabStrip                   | tab     | tabOptions     
+Text Area                  | txa     | txaDescription 
+Text box                   | txt     | txtLastName
+-------------------------- | ------  | --------------- 
+Chevron                    | chv     | chvProtocol    
+Data grid                  | dgd     | dgdTitles      
+Data list                  | dbl     | dblPublisher   
+Directory list box         | dir     | dirSource      
+Drive list box             | drv     | drvTarget      
+File list box              | fil     | filSource      
+Panel/Fieldset             | pnl     | pnlGroup       
+ProgressBar                | prg     | prgLoadFile    
+Slider                     | sld     | sldScale       
+Spinner                    | spn     | spnPages       
+StatusBar                  | sta     | staDateTime    
+Timer                      | tmr     | tmrAlarm       
+Toolbar                    | tlb     | tlbActions      
+TreeView                   | tre     | treOrganization
