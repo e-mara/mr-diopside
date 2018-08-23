@@ -35,39 +35,39 @@ Before you submit your changes consider the following guidelines:
 
 UI                         | Prefix  | Example
 -------------------------- | ------  | --------------- 
-Button                     | btn     | btnExit        
-Check box                  | chk     | chkReadOnly    
-Combo box                  | cbo     | cboEnglish     
-Common dialog              | dlg     | dlgFileOpen    
-Date picker                | dtp     | dtpPublished   
-Dropdown List / Select tag | ddl     | ddlCountry     
-Form                       | form    | formEntry       
-Frame                      | fra     | fraLanguage    
-Image                      | img     | imgIcon        
-Label                      | lbl     | lblHelpMessage 
-Links/Anchor Tags          | lnk     | lnkForgotPwd   
-List box                   | lst     | lstPolicyCodes 
-Menu                       | mnu     | mnuFileOpen    
-Radio button / group       | rdo     | rdoGender      
-RichTextBox                | rtf     | rtfReport      
-Table                      | tbl     | tblCustomer    
-TabStrip                   | tab     | tabOptions     
-Text Area                  | txa     | txaDescription 
-Text box                   | txt     | txtLastName
-Chevron                    | chv     | chvProtocol    
-Data grid                  | dgd     | dgdTitles      
-Data list                  | dbl     | dblPublisher   
-Directory list box         | dir     | dirSource      
-Drive list box             | drv     | drvTarget      
-File list box              | fil     | filSource      
-Panel/Fieldset             | pnl     | pnlGroup       
-ProgressBar                | prg     | prgLoadFile    
-Slider                     | sld     | sldScale       
-Spinner                    | spn     | spnPages       
-StatusBar                  | sta     | staDateTime    
-Timer                      | tmr     | tmrAlarm       
-Toolbar                    | tlb     | tlbActions      
-TreeView                   | tre     | treOrganization
+Button                     | btn     | btn_Exit        
+Check box                  | chk     | chk_ReadOnly    
+Combo box                  | cbo     | cbo_English     
+Common dialog              | dlg     | dlg_FileOpen    
+Date picker                | dtp     | dtp_Published   
+Dropdown List / Select tag | ddl     | ddl_Country     
+Form                       | form    | form_Entry       
+Frame                      | fra     | fra_Language    
+Image                      | img     | img_Icon        
+Label                      | lbl     | lbl_HelpMessage 
+Links/Anchor Tags          | lnk     | lnk_ForgotPwd   
+List box                   | lst     | lst_PolicyCodes 
+Menu                       | mnu     | mnu_FileOpen    
+Radio button / group       | rdo     | rdo_Gender      
+RichTextBox                | rtf     | rtf_Report      
+Table                      | tbl     | tbl_Customer    
+TabStrip                   | tab     | tab_Options     
+Text Area                  | txa     | txa_Description 
+Text box                   | txt     | txt_LastName
+Chevron                    | chv     | chv_Protocol    
+Data grid                  | dgd     | dgd_Titles      
+Data list                  | dbl     | dbl_Publisher   
+Directory list box         | dir     | dir_Source      
+Drive list box             | drv     | drv_Target      
+File list box              | fil     | fil_Source      
+Panel/Fieldset             | pnl     | pnl_Group       
+ProgressBar                | prg     | prg_LoadFile    
+Slider                     | sld     | sld_Scale       
+Spinner                    | spn     | spn_Pages       
+StatusBar                  | sta     | sta_DateTime    
+Timer                      | tmr     | tmr_Alarm       
+Toolbar                    | tlb     | tlb_Actions      
+TreeView                   | tre     | tre_Organization
 
 ### POM Functions
 
