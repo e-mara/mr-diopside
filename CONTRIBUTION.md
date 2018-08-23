@@ -1,33 +1,5 @@
 # Contributing to definitions
 
-## Coding Rules
-
-With the exceptions listed below, we follow the rules contained in
-[Google's Markdown Style Guide](https://github.com/google/styleguide/blob/gh-pages/docguide/style.md):
-
- -  **Lists**: Use `-` as bullets instead of `*`
- -  **Nested list spacing**: Use a single space before a bullet or a numbered list
-    ```markdown
-     1. One space after a numbered list.
-        Four space indent for wrapped text.
-     2. One space again.
-
-     -  Two spaces after a bullet.
-        Four space indent for wrapped text.
-         1. One space after a numbered list.
-            Eight space indent for the wrapped text of a nested list.
-         2. Looks nice, don't it?
-     -  Three spaces after a bullet.
-
-     -  Two spaces after a bullet.
-        Four space indent for wrapped text.
-         -  Two spaces after a bulleted list.
-            Eight space indent for the wrapped text of a nested list.
-         -  Looks nice, don't it?
-     -  Three spaces after a bullet.
-
-    ```
-
 ## Git Commit Guidelines
 
 Read this article how to write meaningful commit messages:
@@ -44,8 +16,9 @@ With the expectations listed below, we follow the rules contained in
      -  **chore**: Changes to the build process or auxiliary tools and libraries such as documentation generation
 
 ## Working on branches
-
-Always work on your separate feature branch. The name of the branch should contain the title of the feature, your name can be also included but that's optional. Your name only as a branch name is invalid.
+-  Always work on your separate feature branch. 
+-  The name of the branch should contain the title of the feature, your name can be also included but that's optional. 
+-  Your name only as a branch name is invalid.
 
 ## Submission Guidelines
 
