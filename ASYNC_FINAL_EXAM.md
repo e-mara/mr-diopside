@@ -1,7 +1,7 @@
 # DB
 [Orientation phase materials] (https://github.com/green-fox-academy/teaching-materials/tree/master/workshop/java-spring-jpa)
-- ORM: <break> [StackOverflow: ORM] (https://stackoverflow.com/questions/1279613/what-is-an-orm-and-where-can-i-learn-more-about-it)
-- CRUD: <break> [CreateReadUpdateDelete] (https://docs.jboss.org/tools/3.3.0.Final/en/seam_tools_ref_guide/html/crud_database_application.html) 
+- ORM: <p> [StackOverflow: ORM] (https://stackoverflow.com/questions/1279613/what-is-an-orm-and-where-can-i-learn-more-about-it)</p>
+- CRUD: <p> [CreateReadUpdateDelete] (https://docs.jboss.org/tools/3.3.0.Final/en/seam_tools_ref_guide/html/crud_database_application.html) </p>
 - Foreign key: [W3School] (https://www.w3schools.com/sql/sql_foreignkey.asp), [MySQL Docs] (https://dev.mysql.com/doc/refman/8.0/en/create-table-foreign-keys.html)
 - SQL syntax: [W3School] (https://www.w3schools.com/sql/sql_quickref.asp), [MySQL Docs] (https://dev.mysql.com/doc/refman/8.0/en/sql-syntax.html)
 - Join [With nice diagrams] (https://www.w3schools.com/sql/sql_join.asp)
