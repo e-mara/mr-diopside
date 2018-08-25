@@ -15,9 +15,4 @@ Join                      | https://www.w3schools.com/sql/sql_join.asp
 - New specific query from database
 - Creating one-to-many, many-to-many connections
 - Basic SQL commands in terminal
-- Cascading deletion for connected records
-
-EXAMPLES                      | Material      
-------------------------------| --------------------------
-Stanford SQL Exercise, p1     | https://github.com/chasmani/Stanford-DB5-SQL-Solutions
-Stanford SQL Exercise, p2     | https://github.com/pwinslow/DB5-SQL-Stanford-Course
+- Cascading deletion for connected record
