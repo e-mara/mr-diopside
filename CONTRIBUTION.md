@@ -75,3 +75,7 @@ WebElement                 | PageObjectModel          | Example
 -------------------------- | -------------------------| ---------------------------- 
 WebElement.click()         | page.clickOn(pageField)  | mainPage.clickOn(lnk_SignIn)
 WebElement.isDisplayed()   | page.isLoaded(pageField) | mainPage.isLoaded(btn_Apply)
+
+### Gherkin feature files 
+
+ -  "I am" is used in steps 
