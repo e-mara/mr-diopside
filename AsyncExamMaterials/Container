@@ -1,0 +1,13 @@
+Nyugodtan tegyetek hozza, ha van valami!
+
+
+Create image using Dockerfile - https://docs.docker.com/engine/reference/commandline/image_build/
+                              - https://docs.docker.com/develop/develop-images/baseimages/
+                              
+                              
+Start / stop containers (using doom is ok :D) - https://docs.docker.com/engine/reference/commandline/start/
+                                              - https://docs.docker.com/engine/reference/commandline/stop/
+
+Push and Pull from dockerhub  - https://docs.docker.com/datacenter/dtr/2.2/guides/user/manage-images/pull-and-push-images/
+
+Set environment variables and ports - https://docs.docker.com/compose/environment-variables/
