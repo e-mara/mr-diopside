@@ -12,6 +12,7 @@
 - [Gherkin video tutorial (best practices)](https://www.youtube.com/watch?v=nrggIRWK6qo)
 - [How to write gherkin scripts](https://www.youtube.com/watch?v=i0Q5orC5jSQ)
 - [Cucumber + Java - playlist](https://www.youtube.com/playlist?list=PL6tu16kXT9PpteusHGISu_lHcV6MbBtA6)
+- [Tagging scenarios](http://toolsqa.com/cucumber/cucumber-tags/)
 
 ## Selenium related:
 - [Coding conventions for Selenium](https://pragmatictestlabs.com/2018/03/05/coding-convention-selenium-java/)
